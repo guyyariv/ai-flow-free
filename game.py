@@ -37,7 +37,8 @@ class GameEngine(object):
         if not available_moves:
             print("No more available moves")
             return None
-        else            best_move = random.choice(available_moves)
+        else:
+            best_move = random.choice(available_moves)
             self.score += self.board.add_move(best_move)
             return best_move
 
