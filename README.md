@@ -16,9 +16,10 @@ Our program is fully accessible
 ## Running Instructions
 
 1. Clone this repo
-2. Install requirements
+2. Activate virtual env
+3. Install requirements
 ```angular2html
-pip install requirements
+pip install -r requirements.txt
 ```
 4. Run main.py
 Optional parameters:  
